@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  margin: 40px 40px;
+}
+
+.pictures {
+  columns: 2 350px;
+  column-gap: 30px;
+  margin-right: 30px;
+}

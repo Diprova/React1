@@ -1,0 +1,19 @@
+
+ 
+
+  .pic {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--lighter);
+  }
+  .pic img {
+    position: relative;
+    transition: all ease-in 0.2s;
+    top: 0;
+    margin: 50px 0;
+  }
+  .pic img:hover {
+    top: -10px;
+    box-shadow: 0 10px 20px 0px var(--dark);
+    transition: all ease-in 0.2s;
+  }

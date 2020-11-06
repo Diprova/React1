@@ -1,0 +1,7 @@
+.heading {
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: var(--ff-heder);
+    cursor: pointer;
+    padding: 10px;
+}

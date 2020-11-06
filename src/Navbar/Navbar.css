@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--light);
+    padding: 0 40px;
+  }
+  .active {
+    color: var(--darkest);
+  }
+  ul {
+    list-style: none;
+    margin: auto 0;
+  }
+  ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 14px;
+  }
+  .down_arrow::after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 5px solid var(--dark);
+    border-bottom: 0;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    display: inline-block;
+    margin-bottom: 2px;
+  }

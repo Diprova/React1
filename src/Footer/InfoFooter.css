@@ -1,0 +1,23 @@
+.info {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: grey;
+    flex-flow: column wrap;
+    padding: 50px 0;
+  }
+  
+  .infobtn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 20%;
+    color: gray;
+    border-bottom: 1px solid gray;
+  }
+  
+  .info button {
+    background-color: transparent;
+    color: grey;
+  }

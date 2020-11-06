@@ -1,0 +1,40 @@
+.img-footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid_img {
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: repeat(2,5vw);
+  }
+  .grid_img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .grid_img img:hover {
+    transition: transform ease-in-out 0.2s;
+    transform: scale(1.2);
+  }
+  .insta {
+    display: flex; 
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center; 
+    width: auto; 
+   height: auto; 
+    position: absolute;
+    z-index: 1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .insta:hover {
+    transition: transform ease-in-out 0.2s;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px gray;
+  }
+  
